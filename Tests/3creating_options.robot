@@ -8,8 +8,8 @@ Test Teardown    Finish TestCase
 Resource    ../Resources/common_functionalities.robot
 #Tama komento ajaa automaatiotestin: robot -d results Tests/3creating_options.robot
 *** Variables ***
-${ADD_NEW_OPTION}   xpath:/html/body/div/div[1]/button
-${SEND_OPTIONS}     xpath:/html/body/div/div[3]/button
+${ADD_NEW_OPTION}   xpath://button[contains(text(), "Add new option")]
+${SEND_OPTIONS}     xpath://button[contains(text(), "Send Options")]
 ${OPTION_INPUT}     xpath://*[@id="option"]
 ${QUESTION3}        xpath:/html/body/div/table/tbody/tr[4]/td[5]/a
 ${QUESTION4}        xpath:/html/body/div/table/tbody/tr[5]/td[5]/a

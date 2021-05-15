@@ -13,7 +13,6 @@ Test Teardown    Finish Testcase
 Creating Questionnaire
     [Documentation]    Creating Questionnaire and Checking it
     [Tags]    Functional
-
     Press "Add questionnaire" button
     Insert Input To Title And Description
     Check If The Questionnaire Is On The List

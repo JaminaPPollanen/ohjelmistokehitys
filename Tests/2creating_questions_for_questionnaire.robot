@@ -11,7 +11,6 @@ Test Teardown    Finish Testcase
 Creating Questions
     [Documentation]    Creating questions for questionnaire
     [Tags]    Functional
-
     Click "Testi" Questionnaire "Show Questions"
     Press "Add New Question" button
     Add Text Yes Required Question
@@ -100,4 +99,3 @@ Add Checkbox Yes Required Question
     Click Element    xpath://*[@id="isRequired1"]
     Click Button    xpath:/html/body/div/form/input[2]
     Page Should Contain    Testi kysymys6
-
